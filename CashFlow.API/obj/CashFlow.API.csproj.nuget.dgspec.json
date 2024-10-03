@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.API/CashFlow.API.csproj": {}
+  },
+  "projects": {
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.API/CashFlow.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.API/CashFlow.API.csproj",
+        "projectName": "CashFlow.API",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.API/CashFlow.API.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj"
+              },
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj"
+              },
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj"
+              },
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj",
+        "projectName": "CashFlow.Applications",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj"
+              },
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj"
+              },
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj",
+        "projectName": "CashFlow.Communications",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectName": "CashFlow.Domain",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj",
+        "projectName": "CashFlow.Exceptions",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectName": "CashFlow.Infrastructure",
+        "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+        "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

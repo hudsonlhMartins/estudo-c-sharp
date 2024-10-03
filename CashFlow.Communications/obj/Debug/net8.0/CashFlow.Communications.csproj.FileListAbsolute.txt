@@ -1,0 +1,11 @@
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/bin/Debug/net8.0/CashFlow.Communications.deps.json
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/bin/Debug/net8.0/CashFlow.Communications.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/bin/Debug/net8.0/CashFlow.Communications.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.AssemblyInfoInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.AssemblyInfo.cs
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.csproj.CoreCompileInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/refint/CashFlow.Communications.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/CashFlow.Communications.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/obj/Debug/net8.0/ref/CashFlow.Communications.dll

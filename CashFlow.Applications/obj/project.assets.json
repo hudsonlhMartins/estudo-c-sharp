@@ -1,0 +1,177 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FluentValidation/11.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CashFlow.Communications/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Communications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Communications.dll": {}
+        }
+      },
+      "CashFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Domain.dll": {}
+        }
+      },
+      "CashFlow.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/11.10.0": {
+      "sha512": "qsJGSJDdZ8qiG+lVJ70PZfJHcEdq8UQZ/tZDXoj78/iHKG6lVKtMJsD11zyyv/IPc7rwqGqnFoFLTNzpo3IPYg==",
+      "type": "package",
+      "path": "fluentvalidation/11.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.10.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "CashFlow.Communications/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Communications/CashFlow.Communications.csproj",
+      "msbuildProject": "../CashFlow.Communications/CashFlow.Communications.csproj"
+    },
+    "CashFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Domain/CashFlow.Domain.csproj",
+      "msbuildProject": "../CashFlow.Domain/CashFlow.Domain.csproj"
+    },
+    "CashFlow.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Exceptions/CashFlow.Exceptions.csproj",
+      "msbuildProject": "../CashFlow.Exceptions/CashFlow.Exceptions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CashFlow.Communications >= 1.0.0",
+      "CashFlow.Domain >= 1.0.0",
+      "CashFlow.Exceptions >= 1.0.0",
+      "FluentValidation >= 11.10.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/hudsonmartins/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj",
+      "projectName": "CashFlow.Applications",
+      "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/CashFlow.Applications.csproj",
+      "packagesPath": "/Users/hudsonmartins/.nuget/packages/",
+      "outputPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Applications/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/hudsonmartins/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj": {
+              "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Communications/CashFlow.Communications.csproj"
+            },
+            "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj": {
+              "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/CashFlow.Domain.csproj"
+            },
+            "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj": {
+              "projectPath": "/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Exceptions/CashFlow.Exceptions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.10.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

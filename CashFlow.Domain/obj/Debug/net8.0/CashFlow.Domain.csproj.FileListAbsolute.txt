@@ -1,0 +1,11 @@
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.deps.json
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfoInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfo.cs
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.csproj.CoreCompileInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/refint/CashFlow.Domain.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Domain/obj/Debug/net8.0/ref/CashFlow.Domain.dll

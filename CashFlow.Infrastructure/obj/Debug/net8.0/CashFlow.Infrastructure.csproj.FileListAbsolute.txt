@@ -1,0 +1,15 @@
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.deps.json
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Domain.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Domain.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.csproj.AssemblyReference.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.AssemblyInfoInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.AssemblyInfo.cs
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.84FCB40E.Up2Date
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/refint/CashFlow.Infrastructure.dll
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.pdb
+/Users/hudsonmartins/estudos/rocketseat/c-sharp/project-02/CashFlow.Infrastructure/obj/Debug/net8.0/ref/CashFlow.Infrastructure.dll
